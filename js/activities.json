@@ -1,0 +1,79 @@
+[
+{
+    "name_a": "Den Permanente",
+    "image_a": "https://files.guidedanmark.org/files/484/19536_Den_Permanente.jpg",
+    "description_a": "Den Permanente i Aarhus er en populær sandstrand tæt på centrum.",
+    "price_a": "$",
+    "time_a": "1-2 timer", 
+    "category_a": "Aktiviteter",
+    "address_a": "Salonvejen 1, 8240 Risskov"
+    },
+
+    {
+    "name_a": "Racehall",
+    "image_a": "https://files.guidedanmark.org/files/484/122904_Racehall_-_Action_2.jpg",
+    "description_a": "Ved Racehall kan du slippe din indre fartdjævel løs.",
+    "price_a": "$$$$",
+    "time_a": "1-5 timer", 
+    "category_a": "Aktiviteter",
+    "address_a": "Hasselager Centervej 30, 8260 Viby J"
+    },
+
+    {
+    "name_a": "Golfskoven",
+    "image_a": "https://files.guidedanmark.org/files/484/240710_Golfskoven-aarhus-1-1024.jpg",
+    "description_a": "Minigolf i Golfskoven i Aarhus.",
+    "price_a": "$$",
+    "time_a": "1-5 timer", 
+    "category_a": "Aktiviteter",
+    "address_a": "Søren Nymarks Vej 6A, 8270 Højbjerg"
+    },
+    {
+    "name_a": "Locked Escape Game",
+    "image_a": "https://files.guidedanmark.org/files/484/270781_locked-escape-rooms-1024.jpg",
+    "description_a": "Escape Room er en sjov og udfordrende aktivitet for vennerne, familien eller kollegaerne.",
+    "price_a": "$$$$",
+    "time_a": "1 time", 
+    "category_a": "Aktiviteter",
+    "address_a": "Ny Banegårdsgade 45, 8000 Aarhus"
+    },
+        
+    {
+        "name_a": "Rush Trampolinpark",
+        "image_a": "https://files.guidedanmark.org/files/484/228309_rush-aarhus-trampoliner.jpg",
+        "description_a": "Giv den gas og hop amok i Rush trampolinpark, hvor der er masser af aktiviteter for både store og små",
+        "price_a": "$$",
+        "time_a": "2-3 timer", 
+        "category_a": "Aktiviteter",
+        "address_a": "Søren Nymarks Vej 8F, G, 8270 Højbjerg"
+        },
+    
+        {
+        "name_a": "Den Gamle By",
+        "image_a": "https://files.guidedanmark.org/files/484/119593_Den_Gamle_By.jpg",
+        "description_a": "Den Gamle By i Aarhus rummer en enestående samling af danske bygninger, hvor det ældste er fra omkring 1550.",
+        "price_a": "$",
+        "time_a": "1-2 timer.", 
+        "category_a": "Aktiviteter",
+        "address_a": "Viborgvej 2, 8000 Aarhus C"
+        },
+    
+        {
+        "name_a": "Tivoli Friheden",
+        "image_a": "https://files.guidedanmark.org/files/484/20012_Tivoli_Friheden_-_Cobra.jpg",
+        "description_a": "Tivoli Friheden har 40 forlystelser, a rutsjebaner og en masse aktiviteter og koncerter for både store og små hele året rundt.",
+        "price_a": "$$",
+        "time_a": "1-6 timer", 
+        "category_a": "Aktiviteter",
+        "address_a": "Skovbrynet 5, 8000 Aarhus"
+        },
+        {
+        "name_a": "Århus Brætspilscafe",
+        "image_a": "https://files.guidedanmark.org/files/484/209363_Aarhus-Braetspilscafe-indendoers.jpg",
+        "description_a": "Brætspil til daten, eller sammen med venner og familie. Der er brætspil for alle.",
+        "price_a": "$$",
+        "time_a": "1-4 timer", 
+        "category_a": "Aktiviteter",
+        "address_a": "Vestergade 58A, 8000 Aarhus"
+    }
+]

@@ -1,0 +1,82 @@
+
+[
+   
+    {
+    "name_r": "Peter Gift",
+    "image_r": "https://files.guidedanmark.org/files/484/192371_Peter-Gift-i-Aarhus2.jpg",
+    "description_r": "Besøg Peter Gift, og få en pause i hverdagen med lækker mad og gode øl - enten i den hyggelige gårdhave, som er åben fra marts til oktober, eller i de stemningsfyldte rammer indendøre. Når gårdhaven lukker, bliver der tændt op i pejsen.",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r": "M. P. Bruuns Gade 28, 8000, Aarhus C"
+    },
+
+    {
+    "name_r": "LAVA",
+    "image_r": "https://files.guidedanmark.org/files/484/179746_Anretning-paa-Restaurant-Lava-i-Aarhus.jpg",
+    "description_r": "På Restaurant LAVA kan du oplev den unikke og fantastiske stemning ved Åen, uden at pengepungen skal lide. Hos Restaurant LAVA i Aarhus er der fokus på den gode og hyggelige stemning med en afslappende atmosfære.",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r": "Åboulevarden 22, 8000, Aarhus C"
+    },
+
+    {
+    "name_r": "Restaurant Langhoff og Juul",
+    "image_r": "https://files.guidedanmark.org/files/484/136248_Restaurant_Langhoff_og_Juul.jpg",
+    "description_r": "På Langhoff & Juul kræser de om deres gæster med lækker mad af høj kvalitet. Alt økologisk. De Instagram-venlige omgivelser danner en hyggelig ramme for et lækkert måltid i genren ny nordisk gastronomi.",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r": "Guldsmedgade 30, 8000, Aarhus"
+    },
+    {
+    "name_r": "Restaurant Atrium",
+    "image_r": "https://files.guidedanmark.org/files/484/227513_HOTEL-ROYAL-ATRIUM-3-Aarhus.jpg",
+    "description_r": "I Hotel Royals Restaurant ATRIUM kan du i en afslappet atmosfære nyde en drink og betragte den åbne himmel, mens du lader dig inspirere af menukortet - uanset årstiden.",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r": "Store Torv a, 8000, Aarhus C"
+    },
+        
+    {
+    "name_r": "FLUX",
+    "image_r": "https://files.guidedanmark.org/files/484/259567_tir-na-nog-aarhus-flux.jpg",
+    "description_r": "Restaurant FLUX er nyeste medlem på stammen hos Tir na nÓg, som er et irsk univers med irske bartendere, irsk musik, irsk øl og irsk charme krydret med dansk hygge! Udover at nyde den lækre mad hos FLUX, kan du sammen med vennerne også kigge forbi den hyggelig lounge-bar og nyde et par lækre cocktails, vin, whisky eller meget andet.",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r": "Frederiksgade 42, 8000, Aarhus C"
+    },
+    
+    {
+    "name_r": "Restaurant MellemRum",
+    "image_r": "https://files.guidedanmark.org/files/484/208304_Restaurant_Mellemrum_Aarhus_RAISFOTO_1745.jpg",
+    "description_r": "Restaurant MellemRum i Aarhus er en restaurant for dig, der elsker god mad og dejlig vin. Her er der altid fokus på indhold og kvalitet af det, der kommer i glassene og på tallerkenerne",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r":"Fredens Torv 2, 8000, Aarhus C"
+    },
+    
+    {
+    "name_r": "Restaurant Köd",
+    "image_r": "https://files.guidedanmark.org/files/484/260036_Boef-restaurant-koed-aarhus.jpg",
+    "description_r": "Restaurant KöD Aarhus byder på et menukort spækket med store bøffer af forskellige udskæringer fra nøje udvalgte opdrættere i Uruguay, USA, Australien og Japan",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "address_r": "Åboulevarden 23, 8000, Aarhus C"
+    },
+    {
+    "name_r": "Restaurant Klokken",
+    "image_r": "https://files.guidedanmark.org/files/484/260029_Bfsandwich-Restaurant-Klokken-Aarhus-.jpg",
+    "description_r": "Hos Klokken Aarhus kan du nyde traditionel dansk mad af høj kvalitet i hyggelige og afslappende omgivelser midt i Aarhus",
+    "price_r": "xx",
+    "time_r": "2 timer", 
+    "category_r": "Restaurant",
+    "adress_r": "Mindegade 6, 8000, Aarhus C"
+    }
+    
+]   

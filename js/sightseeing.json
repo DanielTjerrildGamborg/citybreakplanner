@@ -1,0 +1,61 @@
+[
+
+{
+    "name_s": "Podwalk med Aarhus teater",
+    "image_s": "https://files.guidedanmark.org/files/484/265430_Aarhus_Teater_Podwalk.jpg",
+    "description_s": "Du kommer på en guidet tur gennem Aarhus' gader, der omslutter dig i lyd og fortællinger. Podwalken Jeg er her! præsenterer dig for fem hjemløses stemmer og deres fortællinger om livet på gaden. En af de hjemløse vil med sin stemme guide dig på din vej fra en lokation til en anden.",
+    "price_s": "xx",
+    "time_s": "2 timer", 
+    "category_s": "Guided tur", 
+    "address_s": "Teatergaden r, 8000 Aarhus C"
+    },
+
+    {
+    "name_s": "Hop On Hop Off - City Sightseeing Aarhus",
+    "image_s": "https://files.guidedanmark.org/files/484/170294_City-Sightseeing_Aarhus_01.jpg",
+    "description_s": "Stig ombord på en af byens hop on hop off-busser, og oplev Aarhus' store attraktioner.",
+    "price_s": "Gratis med AarhusCARD ellers 180kr.",
+    "time_s": "xx", 
+    "category_s": "Guided tur"
+    },
+
+    {
+    "name_s": "Foodwalk i Aarhus",
+    "image_s": "https://files.guidedanmark.org/files/484/159987_FOOD-WALK.jpg",
+    "description_s": "Med den 2 timers guidede Food Walk i Aarhus får du en high-light tur, hvor du vil blive præsenteret for fantastisk mad og besøge unikke steder, der alle er en del af den gastronomiske madscene i Aarhus lige nu.",
+    "price_s": "xx",
+    "time_s": "2 timer", 
+    "category_s": "Guidet tur",
+    "adress_s": "Ingerslev Plads, 8000 Aarhus C"
+    },
+    {
+    "name_s": "City Bike sightseeing",
+    "image_s": "https://files.guidedanmark.org/files/484/203371_City-Bike-Adventures-i-Aarhus.jpg",
+    "description_s": "Tag på sightseeing med City Bike Adventures i Aarhus og få et godt overblik over byen. Nyd en cykeltur, få hyggelige historier om Aarhus og nyd friheden på en cykel medens du lærer byen at kende.",
+    "price_s": "$$",
+    "time_s": "2 timer", 
+    "category_s": "Guided tur",
+    "adress_s": "Hack Kampmanns Plads, 8000 Aarhus C"
+    },
+        
+    {
+        "name_s": "Kunst i Gaden med Aarhus Guiderne",
+        "image_s": "https://files.guidedanmark.org/files/484/247157_Kunst-i-gaden-aarhus-aarhusguiderne-1024.jpg",
+        "description_s": "Kom med på en guided tur med Aarhusguiderne",
+        "price_s": "$",
+        "time_s": "1-2 timer", 
+        "category_s": "Guided tur",
+        "adress_s": "Banegårdsgade 36A, 8000 Aarhus"
+        },
+    
+        {
+        "name_s": "Den Blå Rute",
+        "image_s": "https://files.guidedanmark.org/files/484/67548_Den_bl_rute.jpg",
+        "description_s": "Den Blå Rute er en selvguidet tur, hvor du bliver ledt igennem den smukke natur i og omkring Aarhus. Du kan enten gå, løbe eller cykle ruten.",
+        "price_s": "0",
+        "time_s": "1-3 timer", 
+        "category_s": "Guided tur",
+        "adress_s": "Carl Blochs Gade 28, 8000 Aarhus C"
+        }
+
+    ]
