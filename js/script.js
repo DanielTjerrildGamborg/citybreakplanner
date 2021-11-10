@@ -1,46 +1,126 @@
 "use strict";
 
-let _contents = [];
+let _contents1 = [];
+let _contents2 = [];
+let _contents3 = [];
+let _contents4 = [];
 
+//fetching restaurants
 fetch("js/restaurants.json")
 .then(function (response) {
   return response.json();
 })
 .then(function (data) {
   console.log(data);
-  _contents = data;
-  appendRestaurants(_contents);
+  _contents1 = data;
+  appendRestaurants(_contents1);
 });
 
+
+//fetching sightseeing
 fetch("js/sightseeing.json")
 .then(function (response) {
   return response.json();
 })
 .then(function (data) {
   console.log(data);
-  _contents = data;
-  appendSightseeing(_contents);
+  _contents2 = data;
+  appendSightseeing(_contents2);
 });
 
+//fetching cafes
 fetch("js/cafes.json")
 .then(function (response) {
   return response.json();
 })
 .then(function (data) {
   console.log(data);
-  _contents = data;
-  appendCafes(_contents);
+  _contents3 = data;
+  appendCafes(_contents3);
 });
 
+//fetching activities
 fetch("js/activities.json")
 .then(function (response) {
   return response.json();
 })
 .then(function (data) {
   console.log(data);
-  _contents = data;
-  appendActivities(_contents);
+  _contents4 = data;
+  appendActivities(_contents4);
 });
+
+
+
+
+//detail view
+function showDetailView1(id) {
+  const content = _contents1.find(content => content.id == id);
+  document.querySelector("#detailView").innerHTML = /*html*/`
+  <div>
+  <img src="${content.image}" class="detail-img">
+  <h1 class="detail-header">${content.name}</h1>
+  <p class="detail-description">${content.description}</p>
+  <div class="price-time">
+  <p class="detail-price-time">${content.price}</p>
+  <p class="detail-price-time">${content.time}</p>
+    </div>
+  <address class="detail-address">${content.address}</address>
+`;
+  navigateTo("detailView");
+} 
+
+//detail view
+function showDetailView2(id) {
+  const content = _contents2.find(content => content.id == id);
+  document.querySelector("#detailView").innerHTML = /*html*/`
+  <div>
+  <img src="${content.image}" class="detail-img">
+  <h1 class="detail-header">${content.name}</h1>
+  <p class="detail-description">${content.description}</p>
+  <div class="price-time">
+  <p class="detail-price-time">${content.price}</p>
+  <p class="detail-price-time">${content.time}</p>
+  
+  <address class="detail-address">${content.address}</address>
+  </div>`;
+  navigateTo("detailView");
+} 
+
+//detail view
+function showDetailView3(id) {
+  const content = _contents3.find(content => content.id == id);
+  document.querySelector("#detailView").innerHTML = /*html*/`
+  <div>
+  <img src="${content.image}" class="detail-img">
+  <h1 class="detail-header">${content.name}</h1>
+  <p class="detail-description">${content.description}</p>
+  <div class="price-time">
+  <p class="detail-price-time">${content.price}</p>
+  <p class="detail-price-time">${content.time}</p>
+  
+  <address class="detail-address">${content.address}</address>
+  </div>`;
+  navigateTo("detailView");
+} 
+
+//detail view
+function showDetailView4(id) {
+  const content = _contents4.find(content => content.id == id);
+  document.querySelector("#detailView").innerHTML = /*html*/`
+  <div>
+  <img src="${content.image}" class="detail-img">
+  <h1 class="detail-header">${content.name}</h1>
+  <p class="detail-description">${content.description}</p>
+  <div class="price-time">
+  <p class="detail-price-time">${content.price}</p>
+  <p class="detail-price-time">${content.time}</p>
+  
+  <address class="detail-address">${content.address}</address>
+  </div>`;
+  navigateTo("detailView");
+} 
+
 
 
   //appending cafés
@@ -48,10 +128,10 @@ fetch("js/activities.json")
     let htmlTemplate = "";
     for (let content of contents) {
       htmlTemplate += /*html*/` 
-      
-      <h1>${content.name_r}</h1>
-      <img src="${content.image_r}">
-      
+      <article>
+      <img src="${content.image}" onclick="showDetailView1('${content.id}')">
+      <h1>${content.name}</h1>
+      </article>
       `;
     }
     document.querySelector("#restaurants").innerHTML = htmlTemplate;
@@ -63,8 +143,8 @@ fetch("js/activities.json")
     for (let content of contents) {
       htmlTemplate += /*html*/` 
       <article>
-      <h1>${content.name_a}</h1>
-      <img src="${content.image_a}">
+      <img src="${content.image}" onclick="showDetailView2('${content.id}')">
+      <h1>${content.name}</h1>
       </article>
       `;
     }
@@ -77,8 +157,8 @@ fetch("js/activities.json")
         for (let content of contents) {
           htmlTemplate += /*html*/` 
           <article>
-          <h1>${content.name_c}</h1>
-          <img src="${content.image_c}">
+          <img src="${content.image}" onclick="showDetailView3('${content.id}')">
+          <h1>${content.name}</h1>
           </article>
           `;
         }
@@ -91,11 +171,12 @@ fetch("js/activities.json")
         for (let content of contents) {
           htmlTemplate += /*html*/` 
           <article>
-          <h1>${content.name_s}</h1>
-          <img src="${content.image_s}">
+          <img src="${content.image}" onclick="showDetailView4('${content.id}')">
+          <h1>${content.name}</h1>
           </article>
           `;
         }
         document.querySelector("#sightseeing").innerHTML = htmlTemplate;
       };
+
 

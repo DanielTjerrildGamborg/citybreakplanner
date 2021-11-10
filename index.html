@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <script src="js/header.js" defer></script>
+    <script src="js/spa.js" defer></script>
     <title>CityBreakPlanner</title>
 </head>
-<body>
+<body onhashchange="pageChange()">
     <div class="header">
         <div class="header-holder">
             <header class="header">
@@ -60,11 +61,16 @@
             </header>
           </div>
     </div>
-    <div class="content">
+    <div id="content" class="page">
+        <h2 class="section-header">Sightseeing i Aarhus</h2>
         <div id="sightseeing"></div>
+        <h2 class="section-header">Fede aktiviter i Aarhus</h2>
         <div id="activities"></div>
+        <h2 class="section-header">Smagsfulde caféer</h2>
         <div id="cafes"></div>
+        <h2 class="section-header">Fine restauranter</h2>
         <div id="restaurants"></div>
     </div>
+    <div id="detailView" class="page"></div>
 </body>
 </html>
