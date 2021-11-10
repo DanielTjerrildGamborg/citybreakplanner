@@ -81,9 +81,9 @@ function showDetailView2(id) {
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-  
+    </div>
   <address class="detail-address">${content.address}</address>
-  </div>`;
+`;
   navigateTo("detailView");
 } 
 
@@ -98,9 +98,9 @@ function showDetailView3(id) {
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-  
+    </div>
   <address class="detail-address">${content.address}</address>
-  </div>`;
+`;
   navigateTo("detailView");
 } 
 
@@ -115,9 +115,9 @@ function showDetailView4(id) {
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-  
+    </div>
   <address class="detail-address">${content.address}</address>
-  </div>`;
+`;
   navigateTo("detailView");
 } 
 
