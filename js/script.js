@@ -60,29 +60,40 @@ function showDetailView1(id) {
   <div>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
+  <h2 class="detail-subheader">${content.category}</h2>
   <p class="detail-description">${content.description}</p>
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-    </div>
-  <address class="detail-address">${content.address}</address>
+  <div class="button-div">
+  <button class="detail-btn1">FØJ TIL KALENDER</button>
+  <button class="detail-btn2">BOOK NU</button>
+  </div>
+  </div>
+  <address class="detail-address"><i class="fas fa-map-marker-alt fa-lg"></i> ${content.address}</address>
+  
 `;
   navigateTo("detailView");
 } 
 
 //detail view
 function showDetailView2(id) {
-  const content = _contents2.find(content => content.id == id);
+  const content = _contents4.find(content => content.id == id);
   document.querySelector("#detailView").innerHTML = /*html*/`
   <div>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
+  <h2 class="detail-subheader">${content.category}</h2>
   <p class="detail-description">${content.description}</p>
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-    </div>
-  <address class="detail-address">${content.address}</address>
+  <div class="button-div">
+  <button class="detail-btn1">FØJ TIL KALENDER</button>
+  <button class="detail-btn2">BOOK NU</button>
+  </div>
+  </div>
+  <address class="detail-address"><i class="fas fa-map-marker-alt fa-lg"></i> ${content.address}</address>
 `;
   navigateTo("detailView");
 } 
@@ -94,29 +105,39 @@ function showDetailView3(id) {
   <div>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
+  <h2 class="detail-subheader">${content.category}</h2>
   <p class="detail-description">${content.description}</p>
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-    </div>
-  <address class="detail-address">${content.address}</address>
+  <div class="button-div">
+  <button class="detail-btn1">FØJ TIL KALENDER</button>
+  <button class="detail-btn2">BOOK NU</button>
+  </div>
+  </div>
+  <address class="detail-address"><i class="fas fa-map-marker-alt fa-lg"></i> ${content.address}</address>
 `;
   navigateTo("detailView");
 } 
 
 //detail view
 function showDetailView4(id) {
-  const content = _contents4.find(content => content.id == id);
+  const content = _contents2.find(content => content.id == id);
   document.querySelector("#detailView").innerHTML = /*html*/`
   <div>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
+  <h2 class="detail-subheader">${content.category}</h2>
   <p class="detail-description">${content.description}</p>
   <div class="price-time">
   <p class="detail-price-time">${content.price}</p>
   <p class="detail-price-time">${content.time}</p>
-    </div>
-  <address class="detail-address">${content.address}</address>
+  <div class="button-div">
+  <button class="detail-btn1">FØJ TIL KALENDER</button>
+  <button class="detail-btn2">BOOK NU</button>
+  </div>
+  </div>
+  <address class="detail-address"><i class="fas fa-map-marker-alt fa-lg"></i> ${content.address}</address>
 `;
   navigateTo("detailView");
 } 

@@ -12,7 +12,7 @@
     },
 
     {
-    "name": "Hop On Hop Off - City Sightseeing Aarhus",
+    "name": "City Sightseeing Aarhus",
     "image": "https://files.guidedanmark.org/files/484/170294_City-Sightseeing_Aarhus_01.jpg",
     "description": "Stig ombord på en af byens hop on hop off-busser, og oplev Aarhus' store attraktioner.",
     "price": "Gratis med AarhusCARD ellers 180kr.",
@@ -43,7 +43,7 @@
     },
         
     {
-        "name": "Kunst i Gaden med Aarhus Guiderne",
+        "name": "Kunst i Gaden",
         "image": "https://files.guidedanmark.org/files/484/247157_Kunst-i-gaden-aarhus-aarhusguiderne-1024.jpg",
         "description": "Kom med på en guided tur med Aarhusguiderne",
         "price": "$",
