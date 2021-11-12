@@ -257,6 +257,16 @@ img {
   box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.5);
 }
 
+input {
+  padding: 12px 38px 12px 24px;
+  font-size: 0.75rem;
+  margin-bottom: 5px;
+  background-color: #022B52;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
 img:hover {
   cursor: pointer;
 }
@@ -286,6 +296,15 @@ article {
   margin-bottom: 5px;
 }
 
+#intro-header {
+  text-align: center;
+}
+
+#intro-text {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
 /*detail view styling */
 
 #detailView {
@@ -354,5 +373,29 @@ address {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 24px center;
-
 }
+
+/* detail section styling */
+
+.section-style {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-style img {
+  width: 95%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.section-style p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.section-style h1 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+

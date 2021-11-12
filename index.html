@@ -26,23 +26,23 @@
                 <div class="header-nav__inner">
                   <ul class="header-menu-list">
                     <li class="header-menu-item">
-                      <a href="/">Udforsk</a>
+                      <a href="#">Udforsk</a>
                     </li>
                     <li class="header-menu-item">
-                      <a rel="nofollow" href="/works/">Anmeldelser</a>
+                      <a rel="nofollow" href="#">Anmeldelser</a>
                     </li>
                     <li class="header-menu-item">
-                      <a href="/technologies/">Kalender</a>
+                      <a href="#">Min plan</a>
                     </li>
                     <li class="header-menu-item">
-                      <a href="/services/">Kontakt os</a>
+                      <a href="#">Kontakt os</a>
                     </li>
                    
                   </ul>
                   </div>
               </nav>
               
-              <a href="/" class="logo">CityBreakPlanner</a>
+              <a href="#" class="logo">CityBreakPlanner</a>
               
               <a href="#" class="device-menu">
                 <div class="device-menu__inner">
@@ -55,15 +55,25 @@
           </div>
     </div>
     <div id="content" class="page">
-        <h2 class="section-header">Sightseeing i Aarhus</h2>
+        <h1 id="intro-header">Udforsk Smilets By!</h1>
+        <p id="intro-text">Her er vores bud på hvad du kan foretage dig i Jyllands hovedstad, Aarhus. Kør GoKart, spis fint, tag på museum eller noget helt andet - kun fantasien sætter grænser!</p>
+        <h2 class="section-header" onclick="navigateTo('detailSectionSightseeing')">Sightseeing i Aarhus</h2>
         <div id="sightseeing"></div>
-        <h2 class="section-header">Fede aktiviter i Aarhus</h2>
+        <h2 class="section-header"  onclick="navigateTo('detailSectionActivities')">Fede aktiviter i Aarhus</h2>
         <div id="activities"></div>
-        <h2 class="section-header">Smagsfulde caféer</h2>
+        <h2 class="section-header"  onclick="navigateTo('detailSectionCafes')">Smagsfulde caféer</h2>
         <div id="cafes"></div>
-        <h2 class="section-header">Fine restauranter</h2>
+        <h2 class="section-header"  onclick="navigateTo('detailSectionRestaurants')">Fine restauranter</h2>
         <div id="restaurants"></div>
     </div>
     <div id="detailView" class="page"></div>
+   
+    <div id="detailSectionSightseeing" class="page"></div>
+   
+    <div id="detailSectionActivities" class="page"></div>
+    
+    <div id="detailSectionCafes" class="page"></div>
+   
+    <div id="detailSectionRestaurants" class="page"></div>
 </body>
 </html>

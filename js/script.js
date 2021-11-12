@@ -1,6 +1,6 @@
 "use strict";
 
-let _contents1 = [];
+let _contents1= [];
 let _contents2 = [];
 let _contents3 = [];
 let _contents4 = [];
@@ -14,7 +14,9 @@ fetch("js/restaurants.json")
   console.log(data);
   _contents1 = data;
   appendRestaurants(_contents1);
+  appendRestaurantsSection(_contents1);
 });
+
 
 
 //fetching sightseeing
@@ -26,6 +28,7 @@ fetch("js/sightseeing.json")
   console.log(data);
   _contents2 = data;
   appendSightseeing(_contents2);
+  appendSightseeingSection(_contents2);
 });
 
 //fetching cafes
@@ -37,6 +40,7 @@ fetch("js/cafes.json")
   console.log(data);
   _contents3 = data;
   appendCafes(_contents3);
+  appendCafesSection(_contents3);
 });
 
 //fetching activities
@@ -48,8 +52,10 @@ fetch("js/activities.json")
   console.log(data);
   _contents4 = data;
   appendActivities(_contents4);
+  appendActivitiesSection(_contents4);
 });
 
+//123
 
 
 
@@ -58,6 +64,7 @@ function showDetailView1(id) {
   const content = _contents1.find(content => content.id == id);
   document.querySelector("#detailView").innerHTML = /*html*/`
   <div>
+  <input name="action" onclick="history.back()" type="submit" value="Tilbage"/>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
   <h2 class="detail-subheader">${content.category}</h2>
@@ -81,6 +88,7 @@ function showDetailView2(id) {
   const content = _contents4.find(content => content.id == id);
   document.querySelector("#detailView").innerHTML = /*html*/`
   <div>
+  <input name="action" onclick="history.back()" type="submit" value="Tilbage"/>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
   <h2 class="detail-subheader">${content.category}</h2>
@@ -103,6 +111,7 @@ function showDetailView3(id) {
   const content = _contents3.find(content => content.id == id);
   document.querySelector("#detailView").innerHTML = /*html*/`
   <div>
+  <input name="action" onclick="history.back()" type="submit" value="Tilbage"/>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
   <h2 class="detail-subheader">${content.category}</h2>
@@ -125,6 +134,7 @@ function showDetailView4(id) {
   const content = _contents2.find(content => content.id == id);
   document.querySelector("#detailView").innerHTML = /*html*/`
   <div>
+  <input name="action" onclick="history.back()" type="submit" value="Tilbage"/>
   <img src="${content.image}" class="detail-img">
   <h1 class="detail-header">${content.name}</h1>
   <h2 class="detail-subheader">${content.category}</h2>
@@ -142,6 +152,69 @@ function showDetailView4(id) {
   navigateTo("detailView");
 } 
 
+
+//showing detail view for the sections 
+//restaurants 
+function appendRestaurantsSection(contents) {
+  let htmlTemplate = "";
+  for (let content of contents) {
+    htmlTemplate += /*html*/` 
+    <article class="section-style">
+    <img src="${content.image}" onclick="showDetailView1('${content.id}')">
+    <h1>${content.name}</h1>
+    <p class="detail-description">${content.descriptionshort}</p>
+    </article>
+    `;
+  }
+  document.querySelector("#detailSectionRestaurants").innerHTML = htmlTemplate;
+};
+
+//cafes
+
+function appendCafesSection(contents) {
+  let htmlTemplate = "";
+  for (let content of contents) {
+    htmlTemplate += /*html*/` 
+    <article class="section-style">
+    <img src="${content.image}" onclick="showDetailView3('${content.id}')">
+    <h1>${content.name}</h1>
+    <p class="detail-description">${content.descriptionshort}</p>
+    </article>
+    `;
+  }
+  document.querySelector("#detailSectionCafes").innerHTML = htmlTemplate;
+};
+
+//sightseeing
+
+function appendSightseeingSection(contents) {
+  let htmlTemplate = "";
+  for (let content of contents) {
+    htmlTemplate += /*html*/` 
+    <article class="section-style">
+    <img src="${content.image}" onclick="showDetailView4('${content.id}')">
+    <h1>${content.name}</h1>
+    <p class="detail-description">${content.descriptionshort}</p>
+    </article>
+    `;
+  }
+  document.querySelector("#detailSectionSightseeing").innerHTML = htmlTemplate;
+};
+
+//activities 
+function appendActivitiesSection(contents) {
+  let htmlTemplate = "";
+  for (let content of contents) {
+    htmlTemplate += /*html*/` 
+    <article class="section-style">
+    <img src="${content.image}" onclick="showDetailView2('${content.id}')">
+    <h1>${content.name}</h1>
+    <p class="detail-description">${content.descriptionshort}</p>
+    </article>
+    `;
+  }
+  document.querySelector("#detailSectionActivities").innerHTML = htmlTemplate;
+};
 
 
   //appending cafés
@@ -200,4 +273,4 @@ function showDetailView4(id) {
         document.querySelector("#sightseeing").innerHTML = htmlTemplate;
       };
 
-
+alert("This is for mobile view only!");

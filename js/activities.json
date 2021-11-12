@@ -2,7 +2,8 @@
 {
     "name": "Den Permanente",
     "image": "https://files.guidedanmark.org/files/484/19536_Den_Permanente.jpg",
-    "description": "Den Permanente i Aarhus er en populær sandstrand tæt på centrum.",
+    "description": "Den Permanente i Aarhus er en populær sandstrand tæt på centrum. På denne strand kan du opleve det lækre vand, uden for mange bølger og måger. Vandet er dybt på denne strand og derfor er stranden udstyret med en badebro, så du trygt og sikkert kan hoppe i.",
+    "descriptionshort": "Tag på stranden i smukke Risskov - kun 10 min væk fra Centrum.",
     "price": "$",
     "time": "1-2 timer", 
     "category": "Aktiviteter",
@@ -13,7 +14,8 @@
     {
     "name": "Racehall",
     "image": "https://files.guidedanmark.org/files/484/122904_Racehall_-_Action_2.jpg",
-    "description": "Ved Racehall kan du slippe din indre fartdjævel løs.",
+    "description": "Ved Racehall kan du slippe din indre fartdjævel løs. Nordeuropas største indendørs GoKart bane indbyder til ræs og fart med venner og familie. Kør på samme bane som legendariske Jason Watt - tror du, at du har hvad der skal til for at slå hans tid?",
+    "descriptionshort": "Racehall er nordens største indendørs gokart bane - slip din indre fartdjævel løs",
     "price": "$$$$",
     "time": "1-5 timer", 
     "category": "Aktiviteter",
@@ -24,7 +26,8 @@
     {
     "name": "Golfskoven",
     "image": "https://files.guidedanmark.org/files/484/240710_Golfskoven-aarhus-1-1024.jpg",
-    "description": "Minigolf i Golfskoven i Aarhus.",
+    "description": "Minigolf i Golfskoven i Aarhus. Spil minigolf i udfordrende omgivelser tæt på Aarhus Centrum. Perfekt til en udflugt med hele familien!",
+    "descriptionshort": "Spil minigolf på et kæmpe indendørs areal!",
     "price": "$$",
     "time": "1-5 timer", 
     "category": "Aktiviteter",
@@ -34,7 +37,8 @@
     {
     "name": "Locked Escape Game",
     "image": "https://files.guidedanmark.org/files/484/270781_locked-escape-rooms-1024.jpg",
-    "description": "Escape Room er en sjov og udfordrende aktivitet for vennerne, familien eller kollegaerne.",
+    "description": "Escape Room er en sjov og udfordrende aktivitet for vennerne, familien eller kollegaerne. Bliv låst inde, sæt hjernen på prøve og udfordr dig selv! Spændende mysterier som kan vride hjernen i flere timer.",
+    "descriptionshort": "Escape Room beliggende centralt i Aarhus - se om du kan slippe ud!",
     "price": "$$$$",
     "time": "1 time", 
     "category": "Aktiviteter",
@@ -45,7 +49,8 @@
     {
         "name": "Rush Trampolinpark",
         "image": "https://files.guidedanmark.org/files/484/228309_rush-aarhus-trampoliner.jpg",
-        "description": "Giv den gas og hop amok i Rush trampolinpark, hvor der er masser af aktiviteter for både store og små",
+        "description": "Giv den gas og hop amok i Rush trampolinpark, hvor der er masser af aktiviteter for både store og små. Brug hele kroppen når du bouncer rundt på de sjove trampoliner. Denne aktivitet kan med garanti få pulsen op og smilet frem på alles læber!",
+        "descriptionshort": "Trampolinpark beliggende i den sydlige del af Aarhus!",
         "price": "$$",
         "time": "2-3 timer", 
         "category": "Aktiviteter",
@@ -56,7 +61,8 @@
         {
         "name": "Den Gamle By",
         "image": "https://files.guidedanmark.org/files/484/119593_Den_Gamle_By.jpg",
-        "description": "Den Gamle By i Aarhus rummer en enestående samling af danske bygninger, hvor det ældste er fra omkring 1550.",
+        "description": "Den Gamle By i Aarhus rummer en enestående samling af danske bygninger, hvor det ældste er fra omkring 1550. Se hvordan man boede i de gode gamle dage, inden internet og Justin Bieber. Prøv maden fra gamle dage og lev dig ind i fortiden.",
+        "descriptionshort": "Oplev en autentisk og realistisk udgave af hvordan Aarhus så ud i gamle dage!",
         "price": "$",
         "time": "1-2 timer.", 
         "category": "Aktiviteter",
@@ -67,7 +73,8 @@
         {
         "name": "Tivoli Friheden",
         "image": "https://files.guidedanmark.org/files/484/20012_Tivoli_Friheden_-_Cobra.jpg",
-        "description": "Tivoli Friheden har 40 forlystelser, a rutsjebaner og en masse aktiviteter og koncerter for både store og små hele året rundt.",
+        "description": "Tivoli Friheden har 40 forlystelser, rutsjebaner og en masse aktiviteter og koncerter for både store og små hele året rundt. Oplev Halloween uhygge og julehygge for hele familien. Hyggelige spisesteder og candyfloss til hele familien i alle aldre!",
+        "descriptionshort": "Lad dit indre barn slippe frit i Tivoli Friheden!",
         "price": "$$",
         "time": "1-6 timer", 
         "category": "Aktiviteter",
@@ -77,7 +84,8 @@
         {
         "name": "Århus Brætspilscafe",
         "image": "https://files.guidedanmark.org/files/484/209363_Aarhus-Braetspilscafe-indendoers.jpg",
-        "description": "Brætspil til daten, eller sammen med venner og familie. Der er brætspil for alle.",
+        "description": "Brætspil til daten, eller sammen med venner og familie. Der er brætspil for alle - giv din kæreste eller venner tæv i Uno og opnå håneretten resten af aftenen. Aarhus Brætspilcafé har flere hundrede forskellige brætspil og kortspil, og dermed er du garanteret en hyggelig aften!",
+        "descriptionshort": "Spil brætspil sammen med venner eller familie",
         "price": "$$",
         "time": "1-4 timer", 
         "category": "Aktiviteter",
